@@ -1,0 +1,70 @@
+header {
+    margin-bottom: 20px; /* タイトルとコンテンツの間に余白 */
+    padding: 20px; /* タイトルの上下に余白を追加 */
+    box-sizing: border-box; /* パディングを含めたサイズ計算 */
+}
+
+
+h1 {
+    font-size: 3em;
+    color: #e7cfcf; /* テキストの色を調整 */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* ページ全体の高さを確保 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* 画像を左右に配置 */
+    align-items: center;
+    width: 40%; /* 必要に応じて調整 */
+    max-width: 1200px; /* コンテナの最大幅を設定 */
+    margin: 20px 0; /* タイトルやボックスとの間に余白を追加 */
+}
+
+.image-container img {
+    max-width: 45%; /* 画像がコンテナの半分より少し小さくなるように設定 */
+    height: auto;
+}
+
+header {
+    margin-bottom: 20px; /* タイトルとボックスの間に余白を設定 */
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.select-container select {
+    margin: 0 5px; /* 各セレクトボックスの間に少し余白を設定 */
+}
+
+div {
+    width: 100%;
+    max-width: 600px; /* ボックスの最大幅を設定 */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea, input {
+    width: 100%; /* テキストエリアと入力ボックスをボックスの幅に揃える */
+    box-sizing: border-box; /* パディングを含めて幅を計算 */
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
